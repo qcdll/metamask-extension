@@ -189,6 +189,7 @@ WalletView.prototype.render = function () {
         history.push(ADD_TOKEN_ROUTE)
         sidebarOpen && hideSidebar()
       },
+      disabled: true,
     }, this.context.t('addToken')),
   ])
 }
